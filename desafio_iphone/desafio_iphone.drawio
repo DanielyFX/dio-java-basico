@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Página-1" id="C-ASvQPdvux_69scY9X9">
+    <mxGraphModel dx="1877" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-1" value="IPhone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="130" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-6" value="ReprodutorMusical" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="160" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-7" value="+ estado: string&lt;div&gt;+ albuns: list[Albuns]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-6">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-6">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-9" value="+ tocar()&lt;div&gt;+ pausar()&lt;/div&gt;&lt;div&gt;+ selecionarMusica(str musica)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-6">
+          <mxGeometry y="88" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-2" target="DbvgAbSvltKgjnSt2fi0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-53" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DbvgAbSvltKgjnSt2fi0-10">
+          <mxGeometry x="0.6807" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-16" value="Artistas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="630" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-17" value="- nome: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-16">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-16">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-19" value="+ getNome(): list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-16">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="DbvgAbSvltKgjnSt2fi0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="660" as="targetPoint" />
+            <mxPoint x="-130" y="493" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-52" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DbvgAbSvltKgjnSt2fi0-15">
+          <mxGeometry x="0.7251" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-21" value="Músicas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-22" value="- nome: str&lt;div&gt;+ genero: str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-21">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-21">
+          <mxGeometry y="70" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-24" value="+ getMusica(): str nome&lt;div&gt;+ getGenero(): str genero&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-21">
+          <mxGeometry y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="DbvgAbSvltKgjnSt2fi0-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="640" as="targetPoint" />
+            <mxPoint x="30" y="493" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="493" />
+              <mxPoint x="60" y="562" />
+              <mxPoint x="110" y="562" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-51" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DbvgAbSvltKgjnSt2fi0-20">
+          <mxGeometry x="0.6035" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-26" value="Telefone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="300" width="160" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-27" value="+ estado: string&lt;div&gt;+ contato: list[Contato]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-26">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-26">
+          <mxGeometry y="60" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-29" value="+ ligar()&lt;div&gt;+ atender()&lt;/div&gt;&lt;div&gt;+ iniciarCorreioVoz()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-26">
+          <mxGeometry y="88" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-4" target="DbvgAbSvltKgjnSt2fi0-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-31" value="Contatos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="488" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-32" value="+ quantidade: int&lt;div&gt;+ grupos: str&lt;/div&gt;&lt;div&gt;+ pessoas: list[Pessoa]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-31">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-31">
+          <mxGeometry y="70" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-56" value="+ getGrupos: str&lt;div&gt;+ setGrupos: str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-31">
+          <mxGeometry y="80" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-27" target="DbvgAbSvltKgjnSt2fi0-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-36" value="Pessoa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="655" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-37" value="+ nome: str&lt;div&gt;+ numero: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-36">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-36">
+          <mxGeometry y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-54" value="+ getNome(): str&lt;div&gt;+ getNumero(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-36">
+          <mxGeometry y="100" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.556;exitY=1.009;exitDx=0;exitDy=0;entryX=0.551;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-56" target="DbvgAbSvltKgjnSt2fi0-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-57" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DbvgAbSvltKgjnSt2fi0-41">
+          <mxGeometry x="0.3988" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-43" value="Internet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-44" value="+ estado: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-43">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-43">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-46" value="+ ExibirPagina()&lt;div&gt;+ AdicionarNovaAba()&lt;/div&gt;&lt;div&gt;+ AtualizarPagina()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-43">
+          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbvgAbSvltKgjnSt2fi0-2" target="DbvgAbSvltKgjnSt2fi0-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-47" value="Albuns" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="440" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-48" value="+ nome: str&lt;div&gt;+ estrelas: int&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ ano: datetime&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ musicas: list[Musicas]&lt;/div&gt;&lt;div&gt;+ artistas: list[Artistas]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-47">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-47">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbvgAbSvltKgjnSt2fi0-50" value="+ getNome(): str&lt;div&gt;+ getEstrelas(): int&lt;/div&gt;&lt;div&gt;+ setEstrelas(int estrelas)&lt;/div&gt;&lt;div&gt;+ delMusica(str nome)&lt;/div&gt;&lt;div&gt;+ addMusica(str nome)&lt;/div&gt;&lt;div&gt;+ getMusica&lt;/div&gt;&lt;div&gt;+ getAno(): datetime&lt;/div&gt;&lt;div&gt;+ getQtdMusicas(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DbvgAbSvltKgjnSt2fi0-47">
+          <mxGeometry y="150" width="160" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
